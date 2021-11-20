@@ -1,6 +1,9 @@
 package com.skni.warsztatysghv2.registration;
 
-public class Student {
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
 
     private final String id;
     private final String firstName;
